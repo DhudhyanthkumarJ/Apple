@@ -1,0 +1,103 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+}
+
+.bd > ul{
+    background-color:rgba(0, 0, 0, 0.801);
+    display: flex;
+    padding: 14px 15pc;
+    list-style: none;
+
+}
+ li a {
+   text-decoration: none;
+   color:#f5f5f7;
+   padding: 10px 33px;
+   margin: 10px 2px;
+   font-size: none;
+ font-size: 14px;
+ font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+a i{
+    padding: 0px 33px;
+    color:#f5f5f7;
+    font-size:20px;
+}
+.bd ul ul{
+    list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+        position: absolute;
+        background: white;
+      
+    
+}
+.bd ul ul li a{
+    width: 150px;
+    display: block;
+    color:#06c;
+    border: 1px solid white;}
+   
+    ul li:hover > ul{
+        display: block;
+    }
+
+    .bd1{
+        background-color: whitesmoke;
+        padding: 10px 12px;
+
+    }
+
+    .bd1 p {
+        text-align: center;
+
+    }
+    p a{
+        color:#06c ;
+    }
+
+    .bd2 a{
+        text-decoration: none;
+        margin: 10px;
+    }
+    .bd2 a .bo{
+        color: rgba(0, 0, 0, 0.849);
+        font-size: 50px;
+      margin: 10px;
+        text-align: center;
+    }
+    .bd2 a .bo1{
+        text-decoration: none;
+        color: black;
+        font-size: x-large;
+        text-align: center;
+        
+        }
+        .bd2 a .bo2{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            text-align: center;
+            color: rgb(165, 164, 164);
+            padding: 10px;
+        }
+
+        .bd2 a pre{
+            list-style: none;
+            text-align: center;
+            color:#06c ;
+            font-size:x-large;
+            padding: 2px;
+            
+        }
+        .bd2 a img{
+           margin: 30px 26pc;
+            width: 703px;
+        }
